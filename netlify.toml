@@ -1,8 +1,11 @@
-[build]
-  publish = "."
+Refused to load the font 'https://wf.typesquare.com/3/tsst/dist/ja/ts?condition=3400a6e2ba607e6bfceea289c74e3b63&onetime_condition=&eid=5ad00062415c46a09fd67fd7ac1e024a&bw[name]=Chrome&bw[ftf]=0&bw[os]=Macintosh&location=tan821659.studio.site%2Fcontact&fonts[id]=2533&fonts[str]=MOOAguOBhOOBiuOBk%2BOBmeOBm%2BOBoeOBo%2BOBpuOBp%2BOBruOBr%2BOBuOOBvuOCiOOCieOCiuOCi%2BOCj%2BOCouOCqeOCueODieODleODoOODoeODq%2BODrOODvOS%2FoeWGheWJjeWQiOWQjeWVj%2BWuueW8iuaJv%2BekvumAgQ%3D%3D' because it violates the following Content Security Policy directive: "font-src 'self' data:".
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = "default-src 'self' data:; img-src 'self' data:; script-src 'self' https://tally.so https://*.tally.so 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://wf.typesquare.com data:; frame-src https://tally.so https://*.tally.so;"
- # 差分作成
+contact/:33 Refused to load the font 'https://wf.typesquare.com/3/tsst/dist/ja/ts?condition=3400a6e2ba607e6bfceea289c74e3b63&onetime_condition=&eid=5ad00062415c46a09fd67fd7ac1e024a&bw[name]=Chrome&bw[ftf]=0&bw[os]=Macintosh&location=tan821659.studio.site%2Fcontact&fonts[id]=2530&fonts[str]=MDPjgIHjgILjgYTjgYrjgYvjgYzjgY7jgZPjgZTjgZfjgZnjgZvjgZ%2FjgaDjgaHjgabjgafjganjgarjgavjga%2Fjgbvjgb7jgoLjgonjgorjgovjgo%2FjgpLjgqTjgrfjg5Djg5fjg53jg6njg6rjg7zkv6Hlho3lkIjlkIzllY%2FllrbloLTluqbmhI%2FmiYvmlbDml6XmmYLmpa3ov5TpgIHpgY7plpPpoZg%3D' because it violates the following Content Security Policy directive: "font-src 'self' data:".
+
+contact/:33 Refused to frame 'https://tally.so/' because it violates the following Content Security Policy directive: "frame-src 'self' data:".
+
+multi-tabs.js:3616 Injected CSS loaded successfully
+content.js:1 Uncaught TypeError: Cannot read properties of null (reading 'startContainer')
+    at catchWord (content.js:1:10083)
+    at WeblioExtensions.MouseMoveHandler (content.js:1:4172)
+contact/:1 Refused to load the stylesheet 'https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. # 差分を強制的に発生させる
