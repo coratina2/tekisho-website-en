@@ -4,5 +4,5 @@
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com;
     font-src 'self' data: https://fonts.gstatic.com https://wf.typesquare.com;
-    frame-src https://tally.so https://*.tally.so;
+    frame-src 'self' https://tally.so https://*.tally.so;
     img-src 'self' data: https:;
