@@ -4,3 +4,4 @@
     Content-Security-Policy = "default-src 'self' data:; img-src 'self' data:; script-src 'self' https://tally.so https://*.tally.so 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://wf.typesquare.com data:; frame-src https://tally.so https://*.tally.so;"
  
 
+
