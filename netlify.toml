@@ -1,22 +1,7 @@
-6:16:14 PM: build-image version: 068c1c7d7725d329cc382184c7bbf62ac27e2c09 (noble)
-6:16:14 PM: buildbot version: 1ad41682c3cb8ba50e6cec4a3cd94c50f999b538
-6:16:15 PM: Fetching cached dependencies
-6:16:15 PM: Starting to download cache of 31.6MB (Last modified: 2025-07-14 10:12:03 +0000 UTC)
-6:16:15 PM: Finished downloading cache in 344ms
-6:16:15 PM: Starting to extract cache
-6:16:15 PM: Finished extracting cache in 157ms
-6:16:15 PM: Finished fetching cache in 544ms
-6:16:15 PM: Starting to prepare the repo for build
-6:16:15 PM: Preparing Git Reference refs/heads/main
-6:16:17 PM: Failed during stage 'Reading and parsing configuration files': 
-When resolving config file /opt/build/repo/netlify.toml:
-Could not parse configuration file
-Invalid character, expected "=" at row 1, col 10, pos 9:
-1> Refused to load the font 'https://wf.typesquare.com/3/tsst/dist/ja/ts?condition=3400a6e2ba607e6bfceea289c74e3b63&amp;onetime_condition=&amp;eid=5ad00062415c46a09fd67fd7ac1e024a&amp;bw[name]=Chrome&bw[ftf]=0&bw[os]=Macintosh&location=tan821659.studio.site%2Fcontact&fonts[id]=2533&fonts[str]=MOOAguOBhOOBiuOBk%2BOBmeOBm%2BOBoeOBo%2BOBpuOBp%2BOBruOBr%2BOBuOOBvuOCiOOCieOCiuOCi%2BOCj%2BOCouOCqeOCueODieODleODoOODoeODq%2BODrOODvOS%2FoeWGheWJjeWQiOWQjeWVj%2BWuueW8iuaJv%2BekvumAgQ%3D%3D' because it violates the following Content Security Policy directive: "font-src 'self' data:".
-            ^
-2: 
+[build]
+  publish = "."
 
-
-
-: exit status 1
-6:16:17 PM: Failing build: Failed to parse configuration
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self' data:; img-src 'self' data:; script-src 'self' https://tally.so https://*.tally.so 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; fo*
