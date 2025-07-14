@@ -1,13 +1,4 @@
-code ~/tekisho-website
-
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = """
-      default-src 'self';
-      script-src 'self' https://tally.so https://*.tally.so 'unsafe-inline';
-      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
-      font-src 'self' https://fonts.gstatic.com https://wf.typesquare.com data:;
-      frame-src 'self' https://tally.so https://*.tally.so;
-    """
-
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://tally.so https://*.tally.so 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://wf.typesquare.com data:; frame-src 'self' https://tally.so https://*.tally.so;"
