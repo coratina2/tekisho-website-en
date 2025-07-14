@@ -1,3 +1,5 @@
+code ~/tekisho-website
+
 [[headers]]
   for = "/*"
   [headers.values]
