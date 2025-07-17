@@ -13,3 +13,11 @@ html body, html p, html div, html span, html .sd, html .text,
 html h1, html h2, html h3, html h4, html h5, html h6 {
   font-weight: 400 !important;
 }
+/* 強制フォント修正：属性セレクタ対応 */
+.sd[data-s], .text[data-s], .sd.appear[data-s] {
+  font-weight: 400 !important;
+}
+
+strong, b {
+  font-weight: normal !important;
+}
