@@ -1,0 +1,7 @@
+/* 共通フォント修正スタイル */
+strong, b {
+  font-weight: normal !important;
+}
+body, p, div, span, .sd, .text, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400 !important;
+}
